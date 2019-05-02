@@ -1,0 +1,52 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+}
+.app {
+  position: relative;
+}
+.app-body {
+  display: flex;
+}
+.app-body-section {
+  background: #FFF;
+  margin-left: 200px;
+  width: 100%;
+  transition: all .2s ease;
+  background-color: #e4e5e6;
+}
+.app-body-section.abierto {
+  margin-left: 0px;
+}
+.app-main {
+  background: #FFF;
+  position: relative;
+  margin-top: 50px;
+}
+.errors {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding: 5px 15px;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.errors li {
+  margin: 0 0 0 10px;
+  font-size: 12px;
+}
+
+.hola {
+  background-position: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
